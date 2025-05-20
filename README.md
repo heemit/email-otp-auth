@@ -1,3 +1,7 @@
+Here's the updated `README.md` with the database table information included:
+
+---
+
 # Email OTP Authentication System
 
 A secure authentication system using email-based One-Time Passwords (OTP) for login. Built with **Next.js (frontend)**, **Express.js (backend)**, and **Supabase (database)**, this project eliminates the need for passwords by verifying users through a 6-digit OTP sent to their email.
@@ -67,7 +71,28 @@ EMAIL_PASS=your_email_password
 ### 4. Set Up Supabase
 
 1. Go to [Supabase](https://supabase.io/) and create a new project.
-2. Set up the tables `sessions` and `profiles` in Supabase based on your project needs.
+2. Set up the tables `sessions` and `profiles` in Supabase based on your project needs:
+
+#### `profiles` Table Schema:
+
+| Column       | Description                | Data Type                  | Format        |
+| ------------ | -------------------------- | -------------------------- | ------------- |
+| `id`         | No description             | `uuid`                     | `uuid`        |
+| `email`      | User's email address       | `text`                     | `text`        |
+| `created_at` | Account creation timestamp | `timestamp with time zone` | `timestamptz` |
+| `last_login` | Last login timestamp       | `timestamp with time zone` | `timestamptz` |
+
+#### `sessions` Table Schema:
+
+| Column            | Description                                              | Data Type                  | Format        |
+| ----------------- | -------------------------------------------------------- | -------------------------- | ------------- |
+| `id`              | No description                                           | `uuid`                     | `uuid`        |
+| `email`           | User's email address                                     | `text`                     | `text`        |
+| `otp_code`        | One-time password for authentication                     | `text`                     | `text`        |
+| `created_at`      | OTP creation timestamp                                   | `timestamp with time zone` | `timestamptz` |
+| `expiration_time` | OTP expiration time                                      | `timestamp with time zone` | `timestamptz` |
+| `status`          | Current status of OTP (`pending`, `verified`, `expired`) | `text`                     | `text`        |
+
 3. Get your Supabase URL and Key from the project settings and add them to your `.env` file.
 
 ### 5. Running the Application
