@@ -113,3 +113,22 @@ Your app should now be running on `http://localhost:3000`.
 * The app will authenticate the user and create a JWT token for further access.
 
 ---
+
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/1257ec25-d88b-41d4-9730-8d35a08bd8a7)
+
+![image](https://github.com/user-attachments/assets/85b97b9f-3a13-434f-9d91-ccb9773d99a2)
+
+![image](https://github.com/user-attachments/assets/ffa172ee-e0c1-416a-93d4-bc27cafd69ec)
+
+![image](https://github.com/user-attachments/assets/b2f202d5-aa80-4327-9a41-48218f0d829b)
+
+![image](https://github.com/user-attachments/assets/7bcfa8d3-5f64-4310-9d90-374ceb96ae53)
+
+![image](https://github.com/user-attachments/assets/d228bc7c-8e5b-402f-bd23-863a54d23db1)
+
+
+
+
+
