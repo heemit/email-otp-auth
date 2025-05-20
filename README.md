@@ -122,9 +122,9 @@ Your app should now be running on `http://localhost:3000`.
 
 ![image](https://github.com/user-attachments/assets/8fd0955e-d88b-4cea-bdee-9cadda5ef77f)
 
-![image](https://github.com/user-attachments/assets/6196cabb-9dad-4b24-a93b-d33f5c8c30d9)
+![image](https://github.com/user-attachments/assets/b0092951-790b-4439-a4ab-fde8cdc869c9)
 
-![image](https://github.com/user-attachments/assets/854483c4-2d90-4f09-bc5b-e424aea48ecf)
+![image](https://github.com/user-attachments/assets/6196cabb-9dad-4b24-a93b-d33f5c8c30d9)
 
 ![image](https://github.com/user-attachments/assets/2da34a81-38fa-4be9-954b-3572e6cedd74)
 
