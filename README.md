@@ -1,7 +1,3 @@
-Here's the updated `README.md` with the database table information included:
-
----
-
 # Email OTP Authentication System
 
 A secure authentication system using email-based One-Time Passwords (OTP) for login. Built with **Next.js (frontend)**, **Express.js (backend)**, and **Supabase (database)**, this project eliminates the need for passwords by verifying users through a 6-digit OTP sent to their email.
